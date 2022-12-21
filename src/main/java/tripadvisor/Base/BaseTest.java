@@ -58,7 +58,7 @@ public class BaseTest {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(50));
 		driver.get(pro.getProperty("baseurl"));
 	}
-
+System.out.println("program end successfully");
 	@AfterMethod
 
 	public void TearDown() {
