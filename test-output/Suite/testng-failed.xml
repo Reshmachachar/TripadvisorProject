@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="tripadvisor.ExtentListener.ExtentListeners"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="tripadvisor.TestCases.HolidayHomeTest">
+        <methods>
+          <include name="TearDown"/>
+          <include name="Tc_003_holidayHomeWithLiftAccess"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tripadvisor.TestCases.HolidayHomeTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
